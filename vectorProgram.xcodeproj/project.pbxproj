@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA61B315201FB12900A82E04 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA61B314201FB12900A82E04 /* main.cpp */; };
+		AA61B31D201FB1BB00A82E04 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA61B31B201FB1BB00A82E04 /* Controller.cpp */; };
+		AA61B31F201FB1C500A82E04 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA61B31E201FB1C500A82E04 /* Runner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		AA61B311201FB12900A82E04 /* vectorProgram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vectorProgram; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA61B314201FB12900A82E04 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AA61B31B201FB1BB00A82E04 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		AA61B31C201FB1BB00A82E04 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		AA61B31E201FB1C500A82E04 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		AA61B313201FB12900A82E04 /* vectorProgram */ = {
 			isa = PBXGroup;
 			children = (
-				AA61B314201FB12900A82E04 /* main.cpp */,
+				AA61B31B201FB1BB00A82E04 /* Controller.cpp */,
+				AA61B31C201FB1BB00A82E04 /* Controller.hpp */,
+				AA61B31E201FB1C500A82E04 /* Runner.cpp */,
 			);
 			path = vectorProgram;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA61B315201FB12900A82E04 /* main.cpp in Sources */,
+				AA61B31F201FB1C500A82E04 /* Runner.cpp in Sources */,
+				AA61B31D201FB1BB00A82E04 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
